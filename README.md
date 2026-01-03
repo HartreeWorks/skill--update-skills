@@ -1,4 +1,4 @@
-# Check skill updates
+# Update skills
 
 A Claude Code skill for checking and applying updates to shared skills.
 
@@ -13,11 +13,11 @@ A Claude Code skill for checking and applying updates to shared skills.
 ## Usage
 
 Say any of:
-- "check skill updates"
+- "update skills"
 - "update my skills"
-- "are there skill updates"
+- "check skill updates"
 
-Or run `/check-skill-updates`
+Or run `/update-skills`
 
 ## Configuration
 

@@ -1,9 +1,9 @@
 ---
-name: check-skill-updates
-description: Check for available updates to shared Claude Code skills. Use when the user says "check skill updates", "update skills", "are there skill updates", "update my skills", "/check-skill-updates", or asks about updating their Claude Code skills. Also use for configuring update preferences (frequency, enable/disable).
+name: update-skills
+description: Check for available updates to shared Claude Code skills. Use when the user says "update skills", "check skill updates", "are there skill updates", "update my skills", "/update-skills", or asks about updating their Claude Code skills. Also use for configuring update preferences (frequency, enable/disable).
 ---
 
-# Check skill updates
+# Update skills
 
 Check for and apply updates to shared skills (git submodules).
 
