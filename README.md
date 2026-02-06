@@ -2,38 +2,20 @@
 
 A Claude Code skill for checking and applying updates to shared skills.
 
-## What it does
+## Documentation
 
-- Scans all shared skills (git submodules) for available updates
-- Shows what's changed in each skill
-- Offers to pull updates individually or all at once
-- Handles edge cases like local modifications and network issues
-- Updates the parent repo with new submodule references
+See [SKILL.md](./SKILL.md) for complete documentation and usage instructions.
 
-## Usage
+## Installation
 
-Say any of:
-- "update skills"
-- "update my skills"
-- "check skill updates"
-
-Or run `/update-skills`
-
-## Configuration
-
-Settings are stored in `~/.claude/skills/.update-config.json`:
-
-```json
-{
-  "last_checked_timestamp": 1704067200,
-  "check_frequency_days": 14,
-  "auto_check_enabled": true
-}
+```bash
+npx skills add HartreeWorks/skill--update-skills
 ```
 
-- **check_frequency_days**: How often to remind about updates (default: 14)
-- **auto_check_enabled**: Whether to show reminders during skill invocation
+Or install all HartreeWorks skills: `npx skills add HartreeWorks/skills`
 
-## Related
+## About
 
-This skill works with the update reminder system built into shared skills. When you use a shared skill, it checks the config and may remind you to run this command if it's been a while since updates were checked.
+Created by [Peter Hartree](https://x.com/peterhartree). For updates, follow [AI Wow](https://wow.pjh.is), my AI uplift newsletter.
+
+Find more skills at [skills.sh](https://skills.sh) and [HartreeWorks/skills](https://github.com/HartreeWorks/skills).
